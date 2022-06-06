@@ -87,6 +87,7 @@ public class OrderServiceTest {
         book.setStockQuantity(stockQuantity);
         em.persist(book);
         return book;
+
     }
 
     private Member createMember() {
